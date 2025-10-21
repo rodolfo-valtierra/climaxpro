@@ -58,6 +58,7 @@
 		"svelte"
 	],
 	"dependencies": {
+		"@sveltejs/adapter-static": "^3.0.10",
 		"amplify-adapter": "^1.2.3"
 	}
 }
