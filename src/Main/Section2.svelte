@@ -1,5 +1,5 @@
 <script>
-	import ImageCard from '../Components/ImageCard.svelte';
+	import ImageCard from '../components/ImageCard.svelte';
 </script>
 
 
