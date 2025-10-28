@@ -3,6 +3,7 @@ import {vitePreprocess} from '@sveltejs/vite-plugin-svelte'
 import path from 'path'
 
 /** @type {import('@sveltejs/kit').Config} */
+console.log(path.resolve('./src/main/'))
 const config = {
 	kit: {
 		// adapter-auto only supports some environments, see https://svelte.dev/docs/kit/adapter-auto for a list.
@@ -15,10 +16,10 @@ const config = {
       handleHttpError: 'warn'
 		},
 		alias: {
-			$main: path.resolve('./src/main'),
-      $components: path.resolve('./src/components'),
-			$lib: path.resolve('./src/lib'),		
-			$utils: path.resolve('./src/utils'),		
+			$main: path.resolve('./src/main/'),
+			$components: path.resolve('./src/components/'),
+			$lib: path.resolve('./src/lib/'),		
+			$utils: path.resolve('./src/utils/'),		
 		}
 	},
 	preprocess: vitePreprocess(),
