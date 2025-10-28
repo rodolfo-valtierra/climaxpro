@@ -1,5 +1,5 @@
 <script>
-	import Image2 from "$lib/image 2.jpeg"
+	import Image2 from "$lib/image2.jpeg"
 
 	let {children,  ...props} = $props();
 </script>
@@ -12,7 +12,7 @@
 <style>
 
 	div {
-		background-image: url('$lib/image 2.jpeg');
+		background-image: url('$lib/image2.jpeg');
 		background-repeat: no-repeat;
 	}
 

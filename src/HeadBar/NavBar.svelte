@@ -1,5 +1,5 @@
 <script>
-	import Logo from '$lib/img4.PNG'
+	import Logo from '$lib/img4.png'
 	let {children} = $props();
 
 </script>

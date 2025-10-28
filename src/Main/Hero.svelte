@@ -1,16 +1,16 @@
 <script>
-	import Image2 from "$lib/image 2.jpeg"
-	import Logo from "$lib/img4.PNG"
+	import Image2 from "$lib/image2.jpeg"
+	import Logo from "$lib/img4.png"
 </script>
 
 <section class="w-fit justify-items-center">
-	<img class="back" src={Image2} alt="back picture" />
+	<img class="back" src={Image2} alt="no back" />
 	<div class="grid grid-cols-2 w-full">
 		<div class="col-span-1 absolute -top-10 z-1 triangle "></div>
 	</div>
 	<div class="back-logo -skew-x-15 absolute top-90 lg:left-[30%] sm:left-0 grid grid-rows-2 lg:px-25 content-center sm:px-3 pt-3 mx-7 z-1 max-w-223 max-h-45 min-h-30 min-w-80 bg-white">
 			<div class="logo-glow row-span-1 col-span-full skew-x-15 max-w-160">
-				<img class="mx-2" src={Logo} alt="no image" />
+				<img class="mx-2" src={Logo} alt="no logo" />
 			</div>
 			<div class="row-span-2 ps-5 skew-x-15 w-[100%] self-end text-right">
 				<span class="shadow-higth italic mx-1">You deserve the best...</span>
@@ -69,18 +69,6 @@
 		position: absolute;
 		top: 0;
 	}
-
-	/*.tag-bottom::before {
-		content:'';
-		display: grid;
-		justify-content: end;
-		background-color: #052543;
-		width: 5em;
-		height: auto;
-		border-radius: 20px 0px 0px 20px;
-		transform: skew(-15deg);
-		z-index: -1;
-	}*/
 
 	@container tag-container (width < 1036px){
 		.tag-bottom::before{
