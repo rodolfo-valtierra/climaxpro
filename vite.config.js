@@ -7,10 +7,10 @@ export default defineConfig({
 	plugins: [tailwindcss(), sveltekit()],
 	resolve: {
     alias: {
-			$main: path.resolve('./climaxpro/src/main'),
-      $component: path.resolve('./climaxpro/src/components'),
-      $lib: path.resolve('./climaxpro/src/lib'),
-      $utils: path.resolve('./climaxpro/src/utils'),
+			$main: path.resolve('./src/main'),
+      $component: path.resolve('./src/components'),
+      $lib: path.resolve('./src/lib'),
+      $utils: path.resolve('./src/utils'),
     },
   },
 });
