@@ -16,7 +16,8 @@ const config = {
 		},
 		alias: {
 			'$utils': path.resolve('./src/utils/'),
-			'$component': path.resolve('./src/components/')
+			'$component': path.resolve('./src/components/'),
+			'$main': path.resolve('./src/main/')
 		}
 	},
 	preprocess: vitePreprocess(),
