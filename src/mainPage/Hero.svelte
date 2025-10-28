@@ -1,6 +1,6 @@
 <script>
 	import Image2 from "$lib/image2.jpeg"
-	import Logo from "$lib/img4.png"
+	import Logo from "$lib/img4.PNG"
 </script>
 
 <section class="w-fit justify-items-center">
