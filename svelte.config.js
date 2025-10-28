@@ -15,9 +15,9 @@ const config = {
       handleHttpError: 'warn'
 		},
 		alias: {
-			'$utils': path.resolve('./src/utils/'),
-			'$component': path.resolve('./src/components/'),
-			'$main': path.resolve('./src/main/')
+			'$utils': './src/utils/',
+			'$component': './src/components/',
+			'$main': './src/main/'
 		}
 	},
 	preprocess: vitePreprocess(),
