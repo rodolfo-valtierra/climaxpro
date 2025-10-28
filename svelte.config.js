@@ -18,6 +18,7 @@ const config = {
 			$main: path.resolve('./src/main'),
       $components: path.resolve('./src/components'),
 			$lib: path.resolve('./src/lib'),		
+			$utils: path.resolve('./src/utils'),		
 		}
 	},
 	preprocess: vitePreprocess(),
