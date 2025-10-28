@@ -15,7 +15,7 @@ const config = {
       handleHttpError: 'warn'
 		},
 		alias: {
-			$main: path.resolve('./main'),
+			$main: path.resolve('./src/main'),
       $components: path.resolve('./src/components'),
 			$lib: path.resolve('./src/lib'),		
 			$utils: path.resolve('./src/utils'),		
