@@ -4,13 +4,13 @@
 </script>
 
 <section class="w-fit justify-items-center">
-	<img class="back" src={Image2} alt="no image" >
+	<img class="back" src={Image2} alt="back picture" />
 	<div class="grid grid-cols-2 w-full">
-		<div class="col-span-1 absolute -top-10 triangle "></div>
+		<div class="col-span-1 absolute -top-10 z-1 triangle "></div>
 	</div>
-	<div class="back-logo -skew-x-15 absolute top-90 lg:left-[30%] sm:left-0 grid grid-rows-2 lg:px-25 content-center sm:px-3 pt-3 mx-7 z-2 max-w-223 max-h-45 min-h-30 min-w-80 bg-white">
-			<div class="row-span-1 col-span-full skew-x-15 max-w-160">
-				<img class="mx-2" src={Logo} alt="no image" >
+	<div class="back-logo -skew-x-15 absolute top-90 lg:left-[30%] sm:left-0 grid grid-rows-2 lg:px-25 content-center sm:px-3 pt-3 mx-7 z-1 max-w-223 max-h-45 min-h-30 min-w-80 bg-white">
+			<div class="logo-glow row-span-1 col-span-full skew-x-15 max-w-160">
+				<img class="mx-2" src={Logo} alt="no image" />
 			</div>
 			<div class="row-span-2 ps-5 skew-x-15 w-[100%] self-end text-right">
 				<span class="shadow-higth italic mx-1">You deserve the best...</span>
@@ -61,6 +61,13 @@
 	}
 	.tag-bottom > * {
 		font-size: clamp(18pt, 1dvw, 1.9dvw);
+	}
+
+	.logo-glow::before {
+		content:'';
+		clip-path: path("M 0 40 L 15,40 L 30,70 L 60,5 L 75,5 L 40,92 L 65,120 L 45,120 L 26,90 L 15,150 L 0,150 L 15,78 z");
+		position: absolute;
+		top: 0;
 	}
 
 	/*.tag-bottom::before {
